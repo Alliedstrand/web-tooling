@@ -1,0 +1,78 @@
+{
+  "alex.enable": true,
+  "cSpell.words": [],
+  "css.validate": false,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 100, 120],
+  "eslint.packageManager": "yarn",
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "files.associations": {
+    "**/package.json.hbs": "json",
+    "**/*.json.hbs": "jsonc"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/coverage": true,
+    "**/.eslintcache": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/lib": true,
+    "**/temp": true,
+    "**/dist": true,
+    "**/*.scss.ts": true,
+    "**/coverage": true
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "index",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "index",
+  "less.validate": false,
+  "npm.packageManager": "yarn",
+  "scss.validate": false,
+  "search.exclude": {
+    "**/CHANGELOG.json": true,
+    "**/CHANGELOG.md": true,
+    "common/temp": true,
+    "**/node_modules": true,
+    "**/lib": true,
+    "**/dist": true,
+    "**/*.scss.ts": true,
+    "**/*.svg": true,
+    "**/temp": true,
+    "yarn.lock": true,
+    "**/yarn.lock": true,
+    "yarn-error.log": true,
+    "**/yarn-error.log": true
+  },
+  "stylelint.enable": true,
+  "typescript.reportStyleChecksAsWarnings": false,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "yarn.runInTerminal": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  }
+}

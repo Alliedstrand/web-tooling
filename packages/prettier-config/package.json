@@ -1,0 +1,26 @@
+{
+  "name": "@alliedstrand/prettier-config",
+  "version": "1.0.0",
+  "description": "Code formatting configuration for JavaScript/TypeScript projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alliedstrand/web-configs",
+    "directory": "packages/prettier-config"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Alliedstrand/web-configs/issues"
+  },
+  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}

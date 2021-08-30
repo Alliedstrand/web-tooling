@@ -1,0 +1,24 @@
+{
+  "name": "@alliedstrand/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Linting configuration for React-based libraries and apps.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alliedstrand/web-configs",
+    "directory": "packages/eslint-config-react"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Alliedstrand/web-configs/issues"
+  },
+  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

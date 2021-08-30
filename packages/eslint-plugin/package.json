@@ -1,0 +1,24 @@
+{
+  "name": "@alliedstrand/eslint-plugin",
+  "version": "1.0.0",
+  "description": "TODO.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alliedstrand/web-configs",
+    "directory": "packages/eslint-plugin"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Alliedstrand/web-configs/issues"
+  },
+  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "__test__/**", "__fixtures__/**", "**/*.test.{j|t}s", "@(!(package)).json"]
+    }
+  }
+}

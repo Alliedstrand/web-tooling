@@ -1,0 +1,28 @@
+{
+  "name": "@alliedstrand/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript project configuration with commonly used settings.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alliedstrand/web-configs",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Alliedstrand/web-configs/issues"
+  },
+  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "engines": {
+    "node": ">=16"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {},
+  "devDependencies": {}
+}
