@@ -20,5 +20,6 @@
     "node": ">=16"
   },
   "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {}
 }

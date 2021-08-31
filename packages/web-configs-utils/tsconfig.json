@@ -1,0 +1,4 @@
+{
+  "extends": "@alliedstrand/tsconfig",
+  "include": ["src"]
+}

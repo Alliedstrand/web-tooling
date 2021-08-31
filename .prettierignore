@@ -3,6 +3,7 @@ package-deps.json
 CHANGELOG.*
 yarn.lock
 
+esm
 lib
 dist
 node_modules

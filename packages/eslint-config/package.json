@@ -19,8 +19,15 @@
   "engines": {
     "node": ">=16"
   },
+  "main": "index.js",
+  "files": [
+    "rules"
+  ],
   "scripts": {},
   "devDependencies": {
     "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10"
   }
 }

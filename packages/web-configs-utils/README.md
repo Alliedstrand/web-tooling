@@ -1,6 +1,6 @@
 # @alliedstrand/web-configs-utils
 
-**TODO.**
+**Common utilities for use by all @alliedstrand/web-configs packages.**
 
 ## License
 
