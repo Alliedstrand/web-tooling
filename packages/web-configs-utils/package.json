@@ -24,8 +24,16 @@
   "files": [
     "esm"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf esm",
+    "compile": "run-p \"compile:*\"",
+    "compile:esm": "tsc"
+  },
   "devDependencies": {
-    "@alliedstrand/tsconfig": "1.0.0"
+    "@alliedstrand/tsconfig": "^1.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/experimental-utils": "^4.30.0"
   }
 }

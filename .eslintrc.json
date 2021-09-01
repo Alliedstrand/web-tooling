@@ -1,0 +1,4 @@
+{
+  "extends": ["plugin:@alliedstrand/eslint-plugin/javascript"],
+  "root": true
+}

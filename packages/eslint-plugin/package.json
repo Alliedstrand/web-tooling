@@ -1,7 +1,7 @@
 {
   "name": "@alliedstrand/eslint-plugin",
   "version": "1.0.0",
-  "description": "TODO.",
+  "description": "ESLint linting plugin for JavaScript, TypeScript and React web projects.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Alliedstrand/web-configs",
@@ -19,6 +19,19 @@
   "engines": {
     "node": ">=16"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "main": "./cjs/index.js",
+  "files": [
+    "cjs"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf cjs",
+    "compile": "run-p \"compile:*\"",
+    "compile:cjs": "tsc -m commonjs --outDir cjs"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@alliedstrand/eslint-config-javascript": "^1.0.0",
+    "@alliedstrand/web-configs-utils": "^1.0.0"
+  }
 }

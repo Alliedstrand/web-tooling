@@ -1,4 +1,6 @@
-module.exports = {
+import { Linter } from 'eslint';
+
+const config: Linter.Config = {
   env: {
     es6: true,
   },
@@ -211,7 +213,7 @@ module.exports = {
 
     // This rule enforces that all exports are declared at the bottom of the file.
     // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
-    'import/exports-last': 'on',
+    'import/exports-last': 'error',
 
     // Reports when named exports are not grouped together in a single export declaration
     // or when multiple assignments to CommonJS module.exports or exports object are present
@@ -256,7 +258,7 @@ module.exports = {
     // Reports modules without any exports, or with unused exports
     // https://github.com/benmosher/eslint-plugin-import/blob/f63dd261809de6883b13b6b5b960e6d7f42a7813/docs/rules/no-unused-modules.md
     'import/no-unused-modules': [
-      'on',
+      'error',
       {
         ignoreExports: [],
         missingExports: true,
@@ -267,7 +269,7 @@ module.exports = {
     // Reports the use of import declarations with CommonJS exports in any module except for the main module.
     // https://github.com/benmosher/eslint-plugin-import/blob/1012eb951767279ce3b540a4ec4f29236104bb5b/docs/rules/no-import-module-exports.md
     'import/no-import-module-exports': [
-      'on',
+      'error',
       {
         exceptions: [],
       },
@@ -275,6 +277,8 @@ module.exports = {
 
     // Use this rule to prevent importing packages through relative paths.
     // https://github.com/benmosher/eslint-plugin-import/blob/1012eb951767279ce3b540a4ec4f29236104bb5b/docs/rules/no-relative-packages.md
-    'import/no-relative-packages': 'on',
+    'import/no-relative-packages': 'error',
   },
 };
+
+export default config;

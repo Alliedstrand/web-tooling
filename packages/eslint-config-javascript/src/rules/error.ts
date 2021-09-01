@@ -1,8 +1,6 @@
-// @ts-check
+import { Linter } from 'eslint';
 
-/** @type {import("eslint").Linter.Config} */
-module.exports = {
-  benny: {},
+const config: Linter.Config = {
   rules: {
     // Enforce “for” loop update clause moving the counter in the right direction
     // https://eslint.org/docs/rules/for-direction
@@ -44,7 +42,7 @@ module.exports = {
 
     // Disallow duplicate conditions in if-else-if chains
     // https://eslint.org/docs/rules/no-dupe-else-if
-    'no-dupe-else-if': 'on',
+    'no-dupe-else-if': 'error',
 
     // disallow duplicate keys when creating object literals
     'no-dupe-keys': 'error',
@@ -99,7 +97,7 @@ module.exports = {
 
     // Disallow Number Literals That Lose Precision
     // https://eslint.org/docs/rules/no-loss-of-precision
-    'no-loss-of-precision': 'on',
+    'no-loss-of-precision': 'error',
 
     // Disallow characters which are made with multiple code points in character class syntax
     // https://eslint.org/docs/rules/no-misleading-character-class
@@ -121,7 +119,7 @@ module.exports = {
 
     // Disallow returning values from setters
     // https://eslint.org/docs/rules/no-setter-return
-    'no-setter-return': 'on',
+    'no-setter-return': 'error',
 
     // disallow sparse arrays
     'no-sparse-arrays': 'error',
@@ -183,3 +181,5 @@ module.exports = {
     'valid-typeof': ['error', { requireStringLiterals: true }],
   },
 };
+
+export default config;

@@ -1,12 +1,14 @@
-module.exports = {
+import { Linter } from 'eslint';
+
+const config: Linter.Config = {
   rules: {
     // enforce line breaks after opening and before closing array brackets
     // https://eslint.org/docs/rules/array-bracket-newline
-    'array-bracket-newline': ['on', 'consistent'], // object option alternative: { multiline: true, minItems: 3 }
+    'array-bracket-newline': ['error', 'consistent'], // object option alternative: { multiline: true, minItems: 3 }
 
     // enforce line breaks between array elements
     // https://eslint.org/docs/rules/array-element-newline
-    'array-element-newline': ['on', { multiline: true, minItems: 3 }],
+    'array-element-newline': ['error', { multiline: true, minItems: 3 }],
 
     // enforce spacing inside array brackets
     'array-bracket-spacing': ['error', 'never'],
@@ -86,7 +88,7 @@ module.exports = {
     'eol-last': ['error', 'always'],
 
     // https://eslint.org/docs/rules/function-call-argument-newline
-    'function-call-argument-newline': ['on', 'consistent'],
+    'function-call-argument-newline': ['error', 'consistent'],
 
     // enforce spacing between functions and their invocations
     // https://eslint.org/docs/rules/func-call-spacing
@@ -110,7 +112,7 @@ module.exports = {
 
     // enforces use of function declarations or expressions
     // https://eslint.org/docs/rules/func-style
-    'func-style': ['on', 'expression'],
+    'func-style': ['error', 'expression'],
 
     // enforce consistent line breaks inside function parentheses
     // https://eslint.org/docs/rules/function-paren-newline
@@ -241,6 +243,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
+    // TODO: Replace with @alliedstrand variant.
     'max-len': [
       'error',
       100,
@@ -514,7 +517,7 @@ module.exports = {
 
     // Disallow the use of Math.pow in favor of the ** operator
     // https://eslint.org/docs/rules/prefer-exponentiation-operator
-    'prefer-exponentiation-operator': 'on',
+    'prefer-exponentiation-operator': 'error',
 
     // Prefer use of an object spread over Object.assign
     // https://eslint.org/docs/rules/prefer-object-spread
@@ -612,3 +615,5 @@ module.exports = {
     'wrap-regex': 'off',
   },
 };
+
+export default config;

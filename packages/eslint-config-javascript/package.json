@@ -1,11 +1,11 @@
 {
-  "name": "@alliedstrand/eslint-config",
+  "name": "@alliedstrand/eslint-config-javascript",
   "version": "1.0.0",
   "description": "Linting configuration for JavaScript-based apps and libraries.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Alliedstrand/web-configs",
-    "directory": "packages/eslint-config"
+    "directory": "packages/eslint-config-javascript"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -19,15 +19,23 @@
   "engines": {
     "node": ">=16"
   },
-  "main": "index.js",
+  "main": "./cjs/index.js",
   "files": [
-    "rules"
+    "cjs"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf cjs",
+    "compile": "run-p \"compile:*\"",
+    "compile:cjs": "tsc -m commonjs --outDir cjs"
+  },
   "devDependencies": {
+    "@alliedstrand/tsconfig": "^1.0.0",
+    "@types/eslint": "^7.28.0",
+    "@types/node": "^16.7.9",
     "eslint": "^7.32.0"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.10"
+    "@alliedstrand/web-configs-utils": "^1.0.0"
   }
 }

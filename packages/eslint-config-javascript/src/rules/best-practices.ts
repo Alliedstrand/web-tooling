@@ -1,7 +1,6 @@
-// @ts-check
+import { Linter } from 'eslint';
 
-/** @type {import("eslint").Linter.Config} */
-module.exports = {
+const config: Linter.Config = {
   rules: {
     // enforces getter/setter pairs in objects
     // https://eslint.org/docs/rules/accessor-pairs
@@ -42,10 +41,10 @@ module.exports = {
 
     // Enforce default clauses in switch statements to be last
     // https://eslint.org/docs/rules/default-case-last
-    'default-case-last': 'on',
+    'default-case-last': 'error',
 
     // https://eslint.org/docs/rules/default-param-last
-    'default-param-last': 'on',
+    'default-param-last': 'error',
 
     // encourages use of dot notation whenever possible
     // https://eslint.org/docs/rules/dot-notation
@@ -61,7 +60,7 @@ module.exports = {
 
     // Require grouped accessor pairs in object literals and classes
     // https://eslint.org/docs/rules/grouped-accessor-pairs
-    'grouped-accessor-pairs': 'on',
+    'grouped-accessor-pairs': 'error',
 
     // make sure for-in loops have an if statement
     // https://eslint.org/docs/rules/guard-for-in
@@ -85,7 +84,7 @@ module.exports = {
 
     // Disallow returning value in constructor
     // https://eslint.org/docs/rules/no-constructor-return
-    'no-constructor-return': 'on',
+    'no-constructor-return': 'error',
 
     // disallow division operators explicitly at beginning of regular expression
     // https://eslint.org/docs/rules/no-div-regex
@@ -441,3 +440,5 @@ module.exports = {
     yoda: 'error',
   },
 };
+
+export default config;

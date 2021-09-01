@@ -1,4 +1,6 @@
-module.exports = {
+import { Linter } from 'eslint';
+
+const config: Linter.Config = {
   env: {
     es6: true,
   },
@@ -216,3 +218,5 @@ module.exports = {
     'yield-star-spacing': ['error', 'after'],
   },
 };
+
+export default config;

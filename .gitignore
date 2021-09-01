@@ -306,6 +306,7 @@ Cargo.lock
 ### Automaton Build ###
 .automaton-out/
 
+cjs/
 esm/
 lib/
 dist/

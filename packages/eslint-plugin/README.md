@@ -1,6 +1,6 @@
 # @alliedstrand/eslint-plugin
 
-**TODO.**
+**ESLint linting plugin for JavaScript, TypeScript and React web projects.**
 
 ## License
 

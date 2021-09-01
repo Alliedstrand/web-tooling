@@ -1,6 +1,7 @@
-const confusingBrowserGlobals = require('confusing-browser-globals');
+import { Linter } from 'eslint';
+import { confusingBrowserGlobals } from '@alliedstrand/web-configs-utils/esm';
 
-module.exports = {
+const config: Linter.Config = {
   rules: {
     // enforce or disallow variable initializations at definition
     'init-declarations': 'off',
@@ -20,13 +21,14 @@ module.exports = {
       'error',
       {
         name: 'isFinite',
-        message: 'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
+        message: 'Use Number.isFinite instead.',
       },
       {
         name: 'isNaN',
-        message: 'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
+        message: 'Use Number.isNaN instead.',
       },
-    ].concat(confusingBrowserGlobals),
+      ...confusingBrowserGlobals,
+    ],
 
     // disallow declaration of variables already declared in the outer scope
     'no-shadow': 'error',
@@ -42,7 +44,7 @@ module.exports = {
 
     // disallow use of undefined variable
     // https://eslint.org/docs/rules/no-undefined
-    'no-undefined': 'on',
+    'no-undefined': 'error',
 
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
@@ -51,3 +53,5 @@ module.exports = {
     'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
   },
 };
+
+export default config;

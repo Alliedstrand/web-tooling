@@ -1,6 +1,8 @@
-module.exports = {
+import { Linter } from 'eslint';
+
+const config: Linter.Config = {
   env: {
-    node: true
+    node: true,
   },
 
   rules: {
@@ -39,5 +41,7 @@ module.exports = {
 
     // disallow use of synchronous methods (off by default)
     'no-sync': 'off',
-  }
+  },
 };
+
+export default config;
