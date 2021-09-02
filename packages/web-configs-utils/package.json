@@ -19,16 +19,15 @@
   "engines": {
     "node": ">=16"
   },
-  "type": "module",
-  "exports": "./esm/index.js",
+  "main": "./cjs/index.js",
   "files": [
-    "esm"
+    "cjs"
   ],
   "scripts": {
     "build": "yarn clean && yarn compile",
-    "clean": "rimraf esm",
+    "clean": "rimraf cjs",
     "compile": "run-p \"compile:*\"",
-    "compile:esm": "tsc"
+    "compile:cjs": "tsc -m commonjs --outDir cjs"
   },
   "devDependencies": {
     "@alliedstrand/tsconfig": "^1.0.0"

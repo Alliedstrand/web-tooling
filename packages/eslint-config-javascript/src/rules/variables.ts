@@ -1,5 +1,5 @@
 import { Linter } from 'eslint';
-import { confusingBrowserGlobals } from '@alliedstrand/web-configs-utils/esm';
+import { confusingBrowserGlobals } from '@alliedstrand/web-configs-utils';
 
 const config: Linter.Config = {
   rules: {

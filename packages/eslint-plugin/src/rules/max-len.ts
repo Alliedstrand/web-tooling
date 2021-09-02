@@ -1,4 +1,4 @@
-import { createRule } from '@alliedstrand/web-configs-utils/esm';
+import { createRule } from '@alliedstrand/web-configs-utils';
 
 const rule = createRule({
   name: 'max-len',

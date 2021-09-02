@@ -1,12 +1,9 @@
-import path from 'path';
-import eslintConfigJavascript from '@alliedstrand/eslint-config-javascript';
-
 export default {
   configs: {
-    javascript: eslintConfigJavascript,
+    javascript: require('@alliedstrand/eslint-config-javascript'),
   },
 
   rules: {
-    'max-len': path.join(__dirname, './rules/max-len'),
+    'max-len': require('./rules/max-len'),
   },
 };

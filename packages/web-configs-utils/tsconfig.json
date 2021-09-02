@@ -1,7 +1,4 @@
 {
   "extends": "@alliedstrand/tsconfig",
-  "compilerOptions": {
-    "outDir": "esm"
-  },
   "include": ["src"]
 }

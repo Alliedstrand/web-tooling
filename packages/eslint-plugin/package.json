@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "build": "yarn clean && yarn compile",
-    "clean": "rimraf cjs",
+    "clean": "rimraf cjs dist",
     "compile": "run-p \"compile:*\"",
     "compile:cjs": "tsc -m commonjs --outDir cjs"
   },
