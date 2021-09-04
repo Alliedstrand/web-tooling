@@ -1,7 +1,6 @@
 {
   "extends": "@alliedstrand/tsconfig",
   "compilerOptions": {
-    "outDir": "./dist"
-  },
-  "include": ["src"]
+    "noEmit": true
+  }
 }

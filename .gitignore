@@ -310,3 +310,4 @@ cjs/
 esm/
 lib/
 dist/
+.rollup*

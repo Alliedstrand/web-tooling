@@ -12,6 +12,7 @@ coverage
 etc
 change
 __snapshots__
+.rollup*
 
 CODEOWNERS
 LICENSE

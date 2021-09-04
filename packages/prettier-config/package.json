@@ -22,6 +22,11 @@
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
+    "@alliedstrand/tsconfig": "^1.0.0",
+    "@types/prettier": "^2.3.2",
     "prettier": "^2.3.2"
+  },
+  "peerDependencies": {
+    "prettier": "2.x"
   }
 }

@@ -1,7 +1,9 @@
-import { createRule } from '@alliedstrand/web-configs-utils';
+import { createRule } from '../utils/createRule';
 
-const rule = createRule({
-  name: 'max-len',
+export const name = 'max-len';
+
+export const rule = createRule({
+  name,
   meta: {
     type: 'layout',
     docs: {
@@ -9,7 +11,7 @@ const rule = createRule({
       // due to the following:
       // - The default rule has options to detect and uniquely handle comments, strings, etc.
       // - The default rule checks the ignore regex without a preliminary length check first.
-      description: 'Enforces a maximum line length in a more performant manner than the default ESLint rule',
+      description: 'Enforces a maximum line length that is more performant than the default ESLint rule.',
       category: 'Best Practices',
       recommended: false,
     },
@@ -64,5 +66,3 @@ const rule = createRule({
     };
   },
 });
-
-export default rule;

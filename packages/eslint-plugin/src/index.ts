@@ -1,9 +1,19 @@
-export default {
-  configs: {
-    javascript: require('@alliedstrand/eslint-config-javascript'),
-  },
+import { Linter, Rule } from 'eslint';
+import node from './configs/node';
+import react from './configs/react';
+import { rules } from './rules';
 
-  rules: {
-    'max-len': require('./rules/max-len'),
+type EslintPluginConfig = {
+  readonly rules: Record<string, Rule.RuleModule>;
+  readonly configs: Record<string, Linter.Config>;
+};
+
+const pluginConfig: EslintPluginConfig = {
+  rules,
+  configs: {
+    node,
+    react,
   },
 };
+
+export default pluginConfig;
