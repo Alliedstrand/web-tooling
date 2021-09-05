@@ -4,7 +4,7 @@
   "description": "ESLint linting configuration and rules for Alliedstrand web projects.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alliedstrand/web-configs",
+    "url": "git+https://github.com/Alliedstrand/web-configs.git",
     "directory": "packages/eslint-plugin"
   },
   "publishConfig": {

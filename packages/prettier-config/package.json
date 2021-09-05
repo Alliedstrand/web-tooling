@@ -4,7 +4,7 @@
   "description": "Code formatting configuration for JavaScript/TypeScript projects.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alliedstrand/web-configs",
+    "url": "git+https://github.com/Alliedstrand/web-configs.git",
     "directory": "packages/prettier-config"
   },
   "publishConfig": {

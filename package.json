@@ -2,10 +2,9 @@
   "name": "@alliedstrand/web-configs-monorepo",
   "version": "1.0.0",
   "description": "Common formatting and linting configurations for building web apps and libraries at Alliedstrand.",
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alliedstrand/web-configs"
+    "url": "git+https://github.com/Alliedstrand/web-configs.git"
   },
   "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
   "license": "SEE LICENSE IN LICENSE",
@@ -21,7 +20,8 @@
     "clean": "lerna run clean",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
-    "preinstall": "node preinstall.js"
+    "preinstall": "node preinstall.js",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@alliedstrand/eslint-plugin": "^1.0.0",

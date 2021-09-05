@@ -4,7 +4,7 @@
   "description": "TypeScript project configuration with commonly used settings.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alliedstrand/web-configs",
+    "url": "git+https://github.com/Alliedstrand/web-configs.git",
     "directory": "packages/tsconfig"
   },
   "publishConfig": {
