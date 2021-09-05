@@ -20,7 +20,9 @@
     "node": ">=16"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "publish": "yarn publish"
+  },
   "devDependencies": {
     "@alliedstrand/tsconfig": "^1.0.0",
     "@types/prettier": "^2.3.2",

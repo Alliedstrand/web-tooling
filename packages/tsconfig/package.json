@@ -23,6 +23,8 @@
   "files": [
     "tsconfig.json"
   ],
-  "scripts": {},
+  "scripts": {
+    "publish": "yarn publish"
+  },
   "devDependencies": {}
 }

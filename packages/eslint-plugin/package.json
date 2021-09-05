@@ -36,7 +36,8 @@
     "bundle": "rollup -c",
     "clean": "rimraf dist",
     "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix"
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "publish": "yarn build && yarn publish"
   },
   "devDependencies": {
     "@alliedstrand/tsconfig": "^1.0.0",
