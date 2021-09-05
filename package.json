@@ -20,7 +20,8 @@
     "build": "lerna run build --stream --prefix --npm-client yarn",
     "clean": "lerna run clean",
     "lint": "lerna run lint",
-    "lint:fix": "lerna run lint:fix"
+    "lint:fix": "lerna run lint:fix",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@alliedstrand/eslint-plugin": "^1.0.0",
