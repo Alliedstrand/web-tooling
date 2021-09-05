@@ -311,3 +311,5 @@ esm/
 lib/
 dist/
 .rollup*
+
+.npmrc

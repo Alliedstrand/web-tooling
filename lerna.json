@@ -5,7 +5,11 @@
   "version": "independent",
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "__test__/**", "__fixtures__/**", "**/*.test.{j|t}s", "@(!(package)).json"]
+      "ignoreChanges": ["*.md", "__test__/**", "__fixtures__/**", "**/*.test.{j|t}s", "@(!(package)).json"],
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com",
+      "allowBranch": "main"
     }
   }
 }
