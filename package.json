@@ -1,5 +1,5 @@
 {
-  "name": "@alliedstrand/web-configs-monorepo",
+  "name": "@alliedstrand/web-configs",
   "version": "1.0.0",
   "description": "Common formatting and linting configurations for building web apps and libraries at Alliedstrand.",
   "repository": {
