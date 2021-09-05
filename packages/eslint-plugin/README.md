@@ -23,7 +23,7 @@ or
 where `<config name>` is:
 
 - `react`: For React-based projects written primarily in TypeScript
-- `react-node`: For React-based projects written primarily in TypeScript, but are being executed within a Node.js runtime environment.
+- `node`: For React-based projects written primarily in TypeScript, but are being executed within a Node.js runtime environment.
 
 ## Rules
 
