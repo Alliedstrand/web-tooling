@@ -150,7 +150,7 @@ const config: Linter.Config = {
 
     // eslint-plugin-import rules
 
-    'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/extensions': 'off',
     'import/first': 'off',
     'import/newline-after-import': 'off',

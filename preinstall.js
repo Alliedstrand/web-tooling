@@ -64,7 +64,8 @@ async function getGithubToken() {
 getGithubToken().then(githubToken => {
   if (githubToken) {
     const npmrcContents = `${githubRegUrlPrefix}${githubToken}
-@alliedstrand:registry=https://npm.pkg.github.com`;
+@alliedstrand:registry=https://npm.pkg.github.com
+engine-strict=true`;
 
     fs.writeFileSync(repoNpmrcFilepath, npmrcContents);
   } else {
