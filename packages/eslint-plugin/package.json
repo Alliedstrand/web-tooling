@@ -1,6 +1,6 @@
 {
   "name": "@alliedstrand/eslint-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint linting configuration and rules for Alliedstrand web projects.",
   "repository": {
     "type": "git",

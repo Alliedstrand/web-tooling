@@ -90,7 +90,7 @@ const config: Linter.Config = {
         message: '`useLayoutEffect` causes a warning in SSR. Use `useIsomorphicLayoutEffect`',
       },
     ],
-    'no-shadow': ['error', { hoist: 'all' }],
+    'no-shadow': 'off',
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-arrow-callback': 'error',
@@ -146,6 +146,7 @@ const config: Linter.Config = {
 
     '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
 
     // eslint-plugin-import rules
