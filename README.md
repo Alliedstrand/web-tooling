@@ -1,6 +1,6 @@
-# @alliedstrand/web-configs
+# @alliedstrand/web-tooling
 
-**Common formatting and linting configurations for building web apps and libraries at Alliedstrand.**
+**Common tooling and configurations for building web apps at Alliedstrand.**
 
 ## License
 

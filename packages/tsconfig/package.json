@@ -4,7 +4,7 @@
   "description": "TypeScript project configuration with commonly used settings.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alliedstrand/web-configs.git",
+    "url": "git+https://github.com/Alliedstrand/web-tooling.git",
     "directory": "packages/tsconfig"
   },
   "publishConfig": {
@@ -13,9 +13,9 @@
   "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Alliedstrand/web-configs/issues"
+    "url": "https://github.com/Alliedstrand/web-tooling/issues"
   },
-  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
     "node": ">=16"
   },

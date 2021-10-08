@@ -1,18 +1,18 @@
 {
-  "name": "@alliedstrand/web-configs",
+  "name": "@alliedstrand/web-tooling",
   "version": "1.0.0",
-  "description": "Common formatting and linting configurations for building web apps and libraries at Alliedstrand.",
+  "description": "Common tooling and configurations for building web apps at Alliedstrand.",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alliedstrand/web-configs.git"
+    "url": "git+https://github.com/Alliedstrand/web-tooling.git"
   },
   "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Alliedstrand/web-configs/issues"
+    "url": "https://github.com/Alliedstrand/web-tooling/issues"
   },
-  "homepage": "https://github.com/Alliedstrand/web-configs",
+  "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
     "node": ">=16"
   },
