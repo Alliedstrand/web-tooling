@@ -17,14 +17,17 @@
   },
   "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
-    "node": ">=16"
+    "node": ">=16",
+    "pnpm": ">=6",
+    "yarn": "Use pnpm",
+    "npm": "Use pnpm"
   },
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
   ],
   "scripts": {
-    "publish": "yarn publish"
+    "release": "pnpm publish"
   },
   "devDependencies": {}
 }

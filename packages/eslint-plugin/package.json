@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
-    "node": ">=16"
+    "node": ">=16",
+    "pnpm": ">=6",
+    "yarn": "Use pnpm",
+    "npm": "Use pnpm"
   },
   "main": "dist/index.js",
   "exports": {
@@ -32,12 +35,12 @@
     "README.md"
   ],
   "scripts": {
-    "build": "yarn clean && yarn bundle && yarn lint",
+    "build": "pnpm clean && pnpm bundle && pnpm lint",
     "bundle": "rollup -c",
     "clean": "rimraf dist",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "publish": "yarn build && yarn publish"
+    "release": "pnpm build && pnpm publish"
   },
   "devDependencies": {
     "@alliedstrand/tsconfig": "^1.0.0",

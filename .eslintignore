@@ -37,3 +37,5 @@ gitignore
 *__template__
 
 *.hbs
+
+pnpm-lock.yaml

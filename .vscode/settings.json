@@ -6,7 +6,7 @@
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80, 100, 120],
-  "eslint.packageManager": "yarn",
+  "eslint.packageManager": "pnpm",
   "eslint.validate": ["javascript", "typescript"],
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "files.associations": {
@@ -36,7 +36,7 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifierEnding": "index",
   "less.validate": false,
-  "npm.packageManager": "yarn",
+  "npm.packageManager": "pnpm",
   "scss.validate": false,
   "search.exclude": {
     "**/CHANGELOG.json": true,
@@ -51,7 +51,8 @@
     "yarn.lock": true,
     "**/yarn.lock": true,
     "yarn-error.log": true,
-    "**/yarn-error.log": true
+    "**/yarn-error.log": true,
+    "**/pnpm-lock.yaml": true
   },
   "stylelint.enable": true,
   "typescript.reportStyleChecksAsWarnings": false,
