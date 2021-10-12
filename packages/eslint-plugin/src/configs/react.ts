@@ -117,6 +117,7 @@ const config: Linter.Config = {
     'no-prototype-builtins': 'off',
     'no-return-assign': 'off',
     'no-template-curly-in-string': 'off',
+    'no-undef': 'off',
     'no-undef-init': 'off',
     'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'off',
