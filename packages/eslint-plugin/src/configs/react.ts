@@ -108,6 +108,7 @@ const config: Linter.Config = {
     'no-continue': 'off',
     'no-control-regex': 'off',
     'no-else-return': 'off',
+    'no-empty-function': 'off',
     'no-lonely-if': 'off',
     'no-loop-func': 'off',
     'no-multi-assign': 'off',
