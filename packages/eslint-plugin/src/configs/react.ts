@@ -122,6 +122,7 @@ const config: Linter.Config = {
     'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'off',
     'no-unused-expressions': 'off',
+    'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'no-useless-computed-key': 'off',
     'no-useless-concat': 'off',
