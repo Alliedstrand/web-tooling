@@ -1,6 +1,6 @@
 {
   "name": "@alliedstrand/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript project configuration with commonly used settings.",
   "repository": {
     "type": "git",

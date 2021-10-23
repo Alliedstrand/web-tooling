@@ -8,7 +8,6 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": false,
     "incremental": true,
-    "isolatedModules": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "noEmit": false,
