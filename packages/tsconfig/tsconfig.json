@@ -7,7 +7,6 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": false,
-    "incremental": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "noEmit": false,
