@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['plugin:@alliedstrand/eslint-plugin/node'],
+  extends: ['plugin:@alliedstrand/eslint-plugin/react'],
 };

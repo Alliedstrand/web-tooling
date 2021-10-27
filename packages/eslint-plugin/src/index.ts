@@ -1,5 +1,4 @@
 import { Linter, Rule } from 'eslint';
-import node from './configs/node';
 import react from './configs/react';
 import { rules } from './rules';
 
@@ -11,7 +10,6 @@ type EslintPluginConfig = {
 const pluginConfig: EslintPluginConfig = {
   rules,
   configs: {
-    node,
     react,
   },
 };

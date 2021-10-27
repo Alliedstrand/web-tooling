@@ -6,22 +6,29 @@ const config: Linter.Config = {
   parser: '@typescript-eslint/parser',
   plugins: ['@alliedstrand', '@typescript-eslint', 'deprecation', 'import', 'jest', 'jsx-a11y', 'react', 'react-hooks'],
   settings: {
+    react: {
+      version: 'detect',
+    },
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
     },
     'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
       typescript: {
         // Always attempt to resolve types under `<root>@types` directory.
         alwaysTryTypes: true,
-        project: ['./tsconfig.json'],
       },
     },
   },
   env: {
     browser: true,
     'jest/globals': true,
+    node: true,
   },
   ignorePatterns: [
+    'build',
     'cjs',
     'coverage',
     'dist',
