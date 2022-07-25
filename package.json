@@ -8,14 +8,14 @@
     "url": "git+https://github.com/Alliedstrand/web-tooling.git"
   },
   "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Alliedstrand/web-tooling/issues"
   },
   "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
     "node": ">=16",
-    "pnpm": ">=6",
+    "pnpm": ">=7",
     "yarn": "Use pnpm",
     "npm": "Use pnpm"
   },

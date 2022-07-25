@@ -53,4 +53,4 @@ Disallow references to the `React` global namespace and require React to be expl
 
 ## License
 
-[ALLIEDSTRAND CONFIDENTIAL](./LICENSE)
+[MIT](./LICENSE)

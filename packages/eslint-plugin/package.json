@@ -1,6 +1,6 @@
 {
   "name": "@alliedstrand/eslint-plugin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint linting configuration and rules for Alliedstrand web projects.",
   "repository": {
     "type": "git",
@@ -11,14 +11,14 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "author": "Alliedstrand Corporation <contact@alliedstrand.com> (https://alliedstrand.com)",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Alliedstrand/web-tooling/issues"
   },
   "homepage": "https://github.com/Alliedstrand/web-tooling",
   "engines": {
     "node": ">=16",
-    "pnpm": ">=6",
+    "pnpm": ">=7",
     "yarn": "Use pnpm",
     "npm": "Use pnpm"
   },
