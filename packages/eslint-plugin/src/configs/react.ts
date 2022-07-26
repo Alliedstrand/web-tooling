@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 import { Linter } from 'eslint';
 import { getNamingConventionRule } from '../utils/getNamingConventionRule';
 

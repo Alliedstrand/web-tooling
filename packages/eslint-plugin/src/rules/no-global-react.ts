@@ -1,4 +1,4 @@
-import { AST_NODE_TYPES } from '@typescript-eslint/experimental-utils';
+import { AST_NODE_TYPES } from '@typescript-eslint/utils';
 import { createRule } from '../utils/createRule';
 
 export const name = 'no-global-react';
@@ -9,7 +9,6 @@ export const rule = createRule({
     type: 'problem',
     docs: {
       description: 'Prevent accidental references to the global React namespace.',
-      category: 'Best Practices',
       recommended: 'error',
     },
     messages: {

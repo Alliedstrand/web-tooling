@@ -1,6 +1,6 @@
 {
   "name": "@alliedstrand/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Code formatting configuration for JavaScript/TypeScript projects.",
   "repository": {
     "type": "git",
@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@alliedstrand/tsconfig": "^1.0.0",
-    "@types/prettier": "^2.3.2",
-    "prettier": "^2.3.2"
+    "@types/prettier": "^2.6.3",
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "prettier": "2.x"

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 import { Linter } from 'eslint';
 
 const camelCase = '[a-z][a-zA-Z\\d]*'; // Must start with a lowercase letter

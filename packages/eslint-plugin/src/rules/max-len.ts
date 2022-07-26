@@ -12,7 +12,6 @@ export const rule = createRule({
       // - The default rule has options to detect and uniquely handle comments, strings, etc.
       // - The default rule checks the ignore regex without a preliminary length check first.
       description: 'Enforces a maximum line length that is more performant than the default ESLint rule.',
-      category: 'Best Practices',
       recommended: false,
     },
     messages: {
